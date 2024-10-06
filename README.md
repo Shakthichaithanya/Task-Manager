@@ -250,9 +250,9 @@ You can format this in any markdown viewer or text editor to create a visual rep
          | password       |         | description      |       | description    |
          | email          |         | due_date         |       | team_id (FK)   |
          | role           |         | priority         |       | created_by     |
-         | created_at     |         | status           |       | created_at     |
-         | updated_at     |         | project_id (FK)  |       | updated_at     |
-         |                |         | assignee_id (FK) |       |                |
+         | team_id (FK)   |         | status           |       | created_at     |
+         | created_at     |         | project_id (FK)  |       | updated_at     |
+         | updated_at     |         | assignee_id (FK) |       |                |
          |                |         | created_by       |       |                |
          |                |         | created_at       |       |                |
          |                |         | updated_at       |       |                |
